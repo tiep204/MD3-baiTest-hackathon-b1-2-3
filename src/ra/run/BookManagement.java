@@ -71,19 +71,6 @@ public class BookManagement {
         System.out.println("Bạn đã thêm mới thành công " + num + " tác giả");
     }
 
-   /* public static void createBook(Scanner sc) {
-        System.out.println("Mời bạn nhập số lượng sách bạn cần thêm: ");
-        int number = Integer.parseInt(sc.nextLine());
-        for (int i = 0; i < number; i++) {
-            System.out.println("Thông tin sách thứ: " + (i + 1));
-            Book book = new Book();
-            book.setBookId(i + 1);
-            book.inputData();
-            bookList.add(book);
-        }
-
-    }*/
-
     public static void createBook(Scanner sc) {
         System.out.println("Mời bạn nhập số lượng sách bạn cần thêm: ");
         int number = Integer.parseInt(sc.nextLine());
@@ -225,5 +212,4 @@ public class BookManagement {
             queue.remove();
         }
     }
-
 }
